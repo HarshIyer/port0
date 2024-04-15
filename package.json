@@ -1,0 +1,22 @@
+{
+  "name": "port0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiitk-in/Port0.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iiitk-in/Port0/issues"
+  },
+  "homepage": "https://github.com/iiitk-in/Port0#readme",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}

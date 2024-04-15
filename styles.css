@@ -1,0 +1,59 @@
+/* styles.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #c7c7b7, hsl(21, 21%, 71%));
+  color: rgb(95, 52, 0);
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  margin: 2rem 10rem;
+  border-radius: 1rem;
+}
+
+h1 {
+  margin-top: 3rem;
+  font-family: "Roboto Mono";
+  color: rgb(88, 67, 42);
+}
+.spacer {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 10px 20px;
+  text-align: center;
+  color: rgb(88, 67, 42);
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    margin: 2rem 2rem;
+  }
+}
+
+.heading {
+  font-size: 48px;
+  text-align: center;
+}
+
+.logo-font {
+  font-weight: bold;
+  font-family: "Roboto Mono";
+}
+
+a {
+  color: rgb(88, 67, 42);
+}
